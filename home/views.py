@@ -11,4 +11,5 @@ def index(request):
   context = {
     'date': datetime.today().strftime('%Y-%m-%d %H:%M:%S'),
   }
-  return HttpResponse("Hello DJANGO! time is: " + context['date'])
+  # return HttpResponse("Hello DJANGO! time is: " + context['date'])
+  return render(request, 'index.html')

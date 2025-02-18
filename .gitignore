@@ -11,3 +11,6 @@ env
 #src
 *.sqlite*
 
+static/dist/
+.env
+package-lock.json
