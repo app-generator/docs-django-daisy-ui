@@ -7,6 +7,10 @@ Minimal [Django starter that uses DaisyUI/Tailwind](https://app-generator.dev/do
 
 <br /> 
 
+![Django & DaisyUI/Tailwind - Thumb Image](https://github.com/user-attachments/assets/ea55908f-8b1e-4abd-9e88-0443bbeb67ba)
+
+<br />
+
 ## Deploy on `Render` (free plan)
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
