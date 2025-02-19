@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: core-django
-    plan: starter
+    name: django-daisyui
+    plan: free
     env: python
     region: frankfurt  # region should be same as your database region.
     buildCommand: "./build.sh"
