@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
     # Util
     "debug_toolbar",
+    "django_browser_reload",
 ]
 
 MIDDLEWARE = [
@@ -58,6 +59,7 @@ MIDDLEWARE = [
 
     # Util
     "debug_toolbar.middleware.DebugToolbarMiddleware",
+    "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
 ROOT_URLCONF = "core.urls"

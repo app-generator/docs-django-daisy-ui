@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from datetime import datetime
 
@@ -6,10 +6,14 @@ from datetime import datetime
 
 from .models import *
 
+# The index
 def index(request):
 
   context = {
-    'date': datetime.today().strftime('%Y-%m-%d %H:%M:%S'),
+    'timestamp': datetime.today().strftime('%Y-%m-%d %H:%M:%S'),
   }
-  # return HttpResponse("Hello DJANGO! time is: " + context['date'])
-  return render(request, 'index.html')
+  return render(request, 'index.html', context) 
+
+# Simulate API Call
+def hello(request):
+    return JsonResponse({'message': 'Hello from Django & DaisyUI!'})

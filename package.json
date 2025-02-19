@@ -4,15 +4,24 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npm-run-all --parallel watch",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "watch": "npm-run-all --parallel watch-*",
+    "watch-js": "nodemon --watch static/src --ext js --exec \"vite build\"",
+    "watch-css": "nodemon --watch static/src --ext css --exec \"vite build\"",
+    "test": ";"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "daisyui": "^4.6.1",
-    "postcss": "^8.4.33",
+  "dependencies": {
     "tailwindcss": "^3.4.1",
-    "vite": "^5.0.12"
+    "daisyui": "^4.6.1"
+  },  
+  "devDependencies": {
+    "vite": "^5.0.12",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "nodemon": "^3.1.9",    
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^6.0.1"
   }
 }
