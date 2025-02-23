@@ -68,4 +68,4 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 <br />
 
 ---
-[Django & DaisyUI/Tailwind](https://app-generator.dev/docs/technologies/django/integrate-daisyui.html)- Minimal **Django** core provided by **[App-Generaror](https://app-generator.dev/)**
+[Django & DaisyUI/Tailwind](https://app-generator.dev/docs/technologies/django/integrate-daisyui.html)- Minimal **Django** core provided by **[App-Generator](https://app-generator.dev/)**
