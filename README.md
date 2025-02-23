@@ -1,6 +1,6 @@
 # [Django & DaisyUI/Tailwind](https://app-generator.dev/docs/technologies/django/integrate-daisyui.html) `Starter`
 
-Minimal [Django starter that uses DaisyUI/Tailwind](https://app-generator.dev/docs/technologies/django/integrate-daisyui.html) for styling and Vite as builder tool.
+Minimal [Django starter that uses DaisyUI/Tailwind](https://app-generator.dev/docs/technologies/django/integrate-daisyui.html) for styling and [Vite](https://app-generator.dev/docs/technologies/vite/index.html) as a builder tool.
 
 - Support: https://app-generator.dev/
 - [Django & DaisyUI/Tailwind](https://app-generator.dev/docs/technologies/django/integrate-daisyui.html) - Integration Guide
