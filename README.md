@@ -7,7 +7,7 @@ Minimal [Django starter that uses DaisyUI/Tailwind](https://app-generator.dev/do
 
 <br /> 
 
-![Django & DaisyUI/Tailwind - Thumb Image](https://github.com/user-attachments/assets/ea55908f-8b1e-4abd-9e88-0443bbeb67ba)
+![Django & DaisyUI/Tailwind - Thumb Image](https://github.com/user-attachments/assets/dc9be8f6-dda7-4964-8273-594b21121222)
 
 <br />
 
